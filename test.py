@@ -20,3 +20,7 @@ model.fit(input_d, output, epochs=epochs_value, verbose=False)
 print(model.predict([200.0]))
 
 print("layer varibales is : {}".format(layer.get_weights()))
+
+print(model.predict([400.0]))
+
+print("layer varibales is : {}".format(layer.get_weights()))
